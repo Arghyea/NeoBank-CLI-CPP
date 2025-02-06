@@ -3,40 +3,41 @@
 This Bank Account Simulation project is a console-based application that allows users to manage bank accounts and perform various banking operations. It supports both Savings and Checking accounts, with features such as deposits, withdrawals, transaction history tracking, interest calculations, and monthly account processing.
 Key Features:
 
-    Account Creation:
+Account Creation:
     Users can create Savings or Checking accounts by setting a unique PIN for each account.
 
-    Deposits and Withdrawals:
-        Savings accounts become inactive if the balance drops below $25.
-        Checking accounts support overdrafts with a $15 fee per overdraft.
+Deposits and Withdrawals:
+    Savings accounts become inactive if the balance drops below $25.
+    Checking accounts support overdrafts with a $15 fee per overdraft.
 
-    Transaction History:
+Transaction History:
     Maintains a record of deposits, withdrawals, interest earned, and service charges for each account.
 
-    Monthly Processing:
-        Applies service charges and monthly interest.
-        Resets the monthly transaction counts.
+Monthly Processing:
+    Applies service charges and monthly interest.
+    Resets the monthly transaction counts.
 
-    Authentication:
+Authentication:
     Secure login using account number and PIN.
 
-    Data Persistence:
+Data Persistence:
     Account information and transaction history are saved to a file and reloaded when the program starts, ensuring data continuity between sessions.
 
 Functionalities:
 
-    Create Account: Choose account type (Savings/Checking) and set a PIN.
-    Deposit Funds: Add money to an account.
-    Withdraw Funds: Withdraw money with conditions for overdrafts and inactive accounts.
-    View Transactions: Display the transaction history.
-    Monthly Processing: Apply service charges and interest.
-    Logout Functionality: Securely logout from an active session.
+Create Account: Choose account type (Savings/Checking) and set a PIN.
+Deposit Funds: Add money to an account.
+Withdraw Funds: Withdraw money with conditions for overdrafts and inactive accounts.
+View Transactions: Display the transaction history.
+Monthly Processing: Apply service charges and interest.
+Logout Functionality: Securely logout from an active session.
+
 
 How to Run:
 
-    Compile the code using g++:
+Compile the code using g++:
 
-g++ bank_simulation.cpp -o bank_simulation
+    g++ bank_simulation.cpp -o bank_simulation
 
 Execute the compiled program:
 
