@@ -25,12 +25,12 @@ Data Persistence:
 
 Functionalities:
 
-Create Account: Choose account type (Savings/Checking) and set a PIN.
-Deposit Funds: Add money to an account.
-Withdraw Funds: Withdraw money with conditions for overdrafts and inactive accounts.
-View Transactions: Display the transaction history.
-Monthly Processing: Apply service charges and interest.
-Logout Functionality: Securely logout from an active session.
+Create Account
+Deposit Funds
+Withdraw Funds
+View Transactions
+Monthly Processing
+Logout Functionality
 
 
 How to Run:
