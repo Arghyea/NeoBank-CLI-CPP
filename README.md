@@ -25,12 +25,7 @@ Data Persistence:
 
 Functionalities:
 
-Create Account
-Deposit Funds
-Withdraw Funds
-View Transactions
-Monthly Processing
-Logout Functionality
+Create Account, Deposit Funds, Withdraw Funds, View Transactions, Monthly Processing, Logout Functionality
 
 
 How to Run:
