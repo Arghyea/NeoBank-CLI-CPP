@@ -1,31 +1,14 @@
 # NeoBank-CLI-CPP
 
-This Bank Account Simulation project is a console-based application that allows users to manage bank accounts and perform various banking operations. It supports both Savings and Checking accounts, with features such as deposits, withdrawals, transaction history tracking, interest calculations, and monthly account processing.
-Key Features:
+A console app for managing Savings and Checking accounts with features like:
 
-Account Creation:
-    Users can create Savings or Checking accounts by setting a unique PIN for each account.
+    Account Creation: Unique PIN for each account.
+    Transactions: Deposits, withdrawals ($15 overdraft fee for Checking).
+    History: Tracks all transactions, interest, and charges.
+    Monthly Processing: Applies charges, interest, and resets counts.
+    Secure Login: PIN-based access.
+    Data Persistence: Saves account info and history.
 
-Deposits and Withdrawals:
-    Savings accounts become inactive if the balance drops below $25.
-    Checking accounts support overdrafts with a $15 fee per overdraft.
-
-Transaction History:
-    Maintains a record of deposits, withdrawals, interest earned, and service charges for each account.
-
-Monthly Processing:
-    Applies service charges and monthly interest.
-    Resets the monthly transaction counts.
-
-Authentication:
-    Secure login using account number and PIN.
-
-Data Persistence:
-    Account information and transaction history are saved to a file and reloaded when the program starts, ensuring data continuity between sessions.
-
-Functionalities:
-
-Create Account, Deposit Funds, Withdraw Funds, View Transactions, Monthly Processing, Logout Functionality
 
 
 How to Run:
